@@ -21,7 +21,7 @@ Dependendo da versão do projeto, os dados podem incluir informações como:
 - quantidade de pedidos
 - série temporal agregada por intervalo de tempo
 
-Arquivo utilizado no projeto:
+O arquivo utilizado no projeto está organizado na pasta `datasets/`:
 
 - `taxi.csv`
 
@@ -62,8 +62,9 @@ taxi-demand-forecasting/
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-├── taxi-demand-forecasting.ipynb
-└── taxi.csv
+├── taxi_demand_forecasting.ipynb
+└── datasets/
+    └── taxi.csv
 ````
 
 ## Como executar
