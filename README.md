@@ -62,7 +62,7 @@ taxi-demand-forecasting/
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
-├── taxi_demand_forecasting.ipynb
+├── taxi-demand-forecasting.ipynb
 └── taxi.csv
 ````
 
@@ -86,7 +86,7 @@ taxi-demand-forecasting/
    pip install -r requirements.txt
    ```
 
-4. Abra o arquivo `taxi_demand_forecasting.ipynb` no Jupyter Notebook, JupyterLab ou VS Code.
+4. Abra o arquivo `taxi-demand-forecasting.ipynb` no Jupyter Notebook, JupyterLab ou VS Code.
 
 5. Execute as células em ordem.
 
