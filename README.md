@@ -25,6 +25,10 @@ O arquivo utilizado no projeto está organizado na pasta `datasets/`:
 
 - `taxi.csv`
 
+## Objetivo do Projeto
+
+Construir um modelo capaz de prever a demanda de corridas de táxi em períodos futuros, com foco em apoiar o planejamento operacional e a alocação de recursos em horários de pico.
+
 ## Objetivos da Análise
 
 Este projeto busca responder perguntas como:
@@ -104,6 +108,8 @@ Entre os principais focos do projeto, estão:
 
 ## Resultados
 
+Transformação de uma série temporal de pedidos em um problema de machine learning por meio de reamostragem e criação de atributos temporais. Demonstração da possibilidade de prever o comportamento de curto prazo da demanda e utilizar essas previsões como suporte para decisões operacionais mais eficientes.
+
 O notebook inclui:
 
 * preparação da série temporal
@@ -116,6 +122,23 @@ O notebook inclui:
 ## Conclusão
 
 Este projeto demonstra como técnicas de machine learning podem ser aplicadas à previsão de demanda em séries temporais para apoiar decisões operacionais. Ao antecipar padrões de pedidos de táxi, a análise contribui para melhorar planejamento, disponibilidade de recursos e eficiência do serviço.
+
+## O que foi aprendido
+
+Desenvolvimento e consolidação de habilidades em:
+- preparação de séries temporais para modelagem
+- criação de variáveis de defasagem e atributos temporais
+- validação com respeito à ordem temporal
+- comparação entre modelos preditivos
+- interpretação de previsões em contexto operacional
+
+## Melhorias Futuras
+
+Possibilidades de evolução do projeto:
+- testar modelos específicos para séries temporais
+- incluir variáveis externas, como clima ou eventos locais
+- ampliar a engenharia de atributos temporais
+- avaliar horizontes de previsão diferentes
 
 ## Autor
 
